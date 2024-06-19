@@ -1,0 +1,316 @@
+*
+{
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 95px;
+    width: 100%;
+    background-color: #f9f9ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20rem;
+
+}
+
+.licon img{
+    
+    height: 20px;
+    width: 15px;
+    
+}
+.logo{
+    display: flex;
+    gap: 2px;
+    width: 20%;
+
+}
+.lname{
+    color:rgb(8, 0, 0);
+    font-weight: 900;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navitem{
+    height: 95px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.Btn
+{
+    height: 35px;
+    width: 120px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+.Btn a{
+    color: #d2d2e0;
+}
+.himg img{ 
+    width: 100%;
+
+}
+.herosection
+{
+    height: 680px;
+}
+.text1
+{
+    font-size: 50px;
+    color: #363d7a;;
+    font-weight: 800;
+    
+
+}
+.htext
+{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: -70%;
+    left: 8%;
+}
+.getstart,.taketour{
+    height: 58px;
+    width: 218px;
+    background-color:#31d9f0;
+    text-align: center;
+    padding-top: 20px;
+    border:1px solid black;
+
+}
+.btn2{
+    display: flex;
+    gap: 20px;
+    height: 120px;
+    align-items: center;
+}
+.taketour:hover{
+    background-color: #f9f9ff;
+}
+
+.scl{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.scholarship1,.scholarship2,.scholarship3{
+    display: flex;
+    justify-content: center;
+    height: 82px;
+    width: 314px;
+    gap: 15px;
+    text-align: center;
+    line-height: 28.72px;
+    color:#FFFFFF;
+    padding-top: 10px;
+    font-size: 24px;
+    border:2px solid;
+    border-radius: 10px;
+}
+.scholarship1{
+    background-color:#FAC231;
+}
+.scholarship2{
+    background-color: #363d7a;
+}
+.scholarship3{
+    background-color: #31d9f0;
+}
+.scicon img{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;    
+}
+
+.scicon{
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.scltext{
+    display: flex;
+    flex-direction: column;
+}
+ .avitext1,.avitext2,.avitext3{
+    font-size: 15px;
+    text-align: left;
+}
+.popular{
+    height: 180px;
+
+}
+.pop{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.deg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.deg .btn1{
+    height: 40px;
+    width: 140px;
+    background-color: #31d9f0;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out 0.01s;
+    cursor: pointer;
+}
+.deg .btn1:hover{
+    background-color: #f9f9ff;
+    color: black;
+    box-shadow: 2px 2px 4px black;
+
+}
+.c-1{
+    height: 489px;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    gap: 2px;
+}
+
+.d-1 img{
+    height: 226px;
+    width: 354px;
+}
+.d-1{
+    width: 354px;
+    height: 489px;
+}
+.d-1 .c1{
+    padding-top: 20px;
+    padding-left: 47px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.37px;
+}
+.d-1 .c2{
+    width: 247px;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 47px;
+    line-height: 24.56px;
+    font-size: 18px; 
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
+}
+.d-1 .c3{
+    padding-top: 15px;
+    width: 260px;
+    height: 48px;
+    font-size: 12px;
+    color: rgb(75, 74, 74);
+    font-weight: bold;
+    line-height: 16.37px;
+    padding-left: 47px;
+    font-family: monospace;
+    position: relative; 
+}
+.c-1 .aplybtn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 60px;
+    width: 114px;
+    height: 25px;
+    padding-top:6px;
+    line-height: 12px;
+    margin-left: 47px;
+    color: #FFFFFF;
+    background-color: #31d9f0;
+    border: 1px solid #31d9f0;
+    border-radius: 5px;
+    text-align: center;
+}
+.c-1 .aplybtn:hover{
+    background-color: #FFFFFF;
+    color: #31d9f0;
+    cursor:pointer;
+}
+.view{
+    width: 224px;
+    height: 64px;
+    padding-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   /* animation:View 4 ease-in 2s infinite;*/
+}
+/*@keyframes{
+    from{
+        left: 0px;
+        top: 0px;
+    }
+    20%{
+        left:800px;
+        top:0px;
+
+    }
+
+}*/
+.views{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mid{
+    margin-left: 1px;
+}
+
+.midimg{
+    background-image: url(./Image/unsplash_QckxruozjRg.jpg);
+    height: 710px;
+    background-size: cover;
+}
+
+.minding1{
+    height: 710px;
+    width: 834px;
+    background-color:#253C8DCC;
+}
+.midheading{
+    width: 500px;
+    height: 52px;
+    line-height: 52.21px;
+    padding-top: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-left: 122px;
+    font-family: "Abril Fatface";
+}
+.midpara{
+    padding-top: 40px;
+    
+}
