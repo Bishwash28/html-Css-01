@@ -147,7 +147,7 @@
     display: flex;
     flex-direction: column;
 }
- .avitext1,.avitext2,.avitext3{
+.avitext1,.avitext2,.avitext3{
     font-size: 15px;
     text-align: left;
 }
